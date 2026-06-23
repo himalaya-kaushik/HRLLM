@@ -1,0 +1,15 @@
+# Dataset download
+datasets==3.6.0
+huggingface_hub==1.20.1
+soundfile==0.14.0
+
+# Data handling
+pandas==3.0.3
+numpy==2.4.6
+tqdm==4.68.3
+
+# ASR inference (Apple Silicon — uses Metal GPU)
+mlx-whisper>=0.4.1
+
+# Evaluation
+jiwer
