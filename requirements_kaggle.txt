@@ -1,0 +1,13 @@
+# Kaggle fine-tuning dependencies for Haryanvi/Bangru Whisper
+# Pin versions known to be compatible as of 2026 (Kaggle Python 3.10+, CUDA 12.x)
+# Install order matters: accelerate before transformers to avoid version conflicts.
+
+accelerate==1.2.1
+transformers==4.47.1
+datasets==3.2.0
+peft==0.14.0
+jiwer==3.0.4
+soundfile==0.12.1
+librosa==0.10.2
+scipy==1.14.1
+requests>=2.31.0
